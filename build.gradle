@@ -1,7 +1,7 @@
 buildscript {
     repositories {
 	    maven { url "http://repo.spring.io/release" }
-            mavenCentral()
+        mavenCentral()
 	    mavenLocal()
     }
     dependencies {
@@ -39,5 +39,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+    gradleVersion = '2.3.6'
 }
